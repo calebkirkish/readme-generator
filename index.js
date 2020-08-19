@@ -20,18 +20,23 @@ const questions = [{
 },
 {
     type: "input",
-    name: "contribution",
-    message: "What are the guidelines for contributing to the project"
+    name: "usage",
+    message: "What is the main use of this project?"
+},
+{
+    type: "input",
+    name: "contributing",
+    message: "What are the guidelines for contributing to the project?"
 },
 {
     type: "input",
     name: "tests",
-    message: "are there any tests that you are currently running for this project"
+    message: "are there any tests that you are currently running for this project?"
 },
 {
     type: "input",
-    name: "usage",
-    message: "What is the main use of this project?"
+    name: "license",
+    message: "List any licenses being used"
 },
 {
     type: "input",
@@ -42,13 +47,7 @@ const questions = [{
     type: "input",
     name: "email",
     message: "enter your primary email for contact"
-},
-{
-    type: "input",
-    name: "license",
-    message: "List any licenses being used"
-},
-
+}
 ];
 
 // function to write README file
